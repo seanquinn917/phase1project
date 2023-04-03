@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>           
-            img{
-                display: block; 
-                margin-left: auto; 
-                margin-right: auto;
-            }
-            body{
-                background-color:goldenrod;
-            }    
-            h1{
-                text-align: center;
-                color:olive
-            }
-
-        </style>
-        <h1>The Breweries of America!</h1>
+        <link rel ='stylesheet' href="stylesheet.css" >
+        <h1 id="myHeader">The Breweries of America!</h1>
         <script src="index.js"></script>
-        
-           
-        
     </head>
     <body>
-        <img src="https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-4.0.3&dl=wil-stewart-UErWoQEoMrc-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb" width= "600" height= "360" alt="beer cartoon">
-        
+        <img id='imageID'src="https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-4.0.3&dl=wil-stewart-UErWoQEoMrc-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"  width= "600" height= "360" alt="beer cartoon" />
+        <form id="form1">
+            <p>
+                <label for="searchByNameS">Search by Name</label>
+                <input id= "searchByName" type="text" placeholder="Enter Brewery Name"/>
+                <input type="submit"/>
+            </p>
+            <br>
+        </form>
+        <form id="form2">
+            <p3>
+                <label for="searchByState">Search by State</label>
+                <input id="searchByState" type="text" placeholder="Enter Brewery State"/>
+                <input type="submit">
+            </p3>
+        </form>
+        <br>
+        <br>
+        <form id="form3">
+            <p2>
+                <label for="searchByType">Search by Type</label>
+                <input id="searchByType" type="text" placeholder="Enter Brewery Type"/>
+                <input type="submit">
+            </p2>
+        </form>
+        <br>
+        <br>
+        <p id="listholder"></p>
+        <br>
+        <br>
+      
     </body>
-</html>
+</html> 
