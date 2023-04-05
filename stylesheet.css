@@ -7,13 +7,15 @@
                 background-color:goldenrod;
             }    
             h1{           
-                color:olive;      
+                color:rgb(94, 94, 47);      
                 text-align: center;
             }
             button{
                 color:rgb(88, 42, 163);
                 position: absolute;
-                
+                background-color: rgb(235, 214, 30);
+                font-size: 12px;
+                border-radius: 8px;
             }
             li{
                 list-style-type: none;
@@ -70,6 +72,6 @@
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                font-size: 16px;
+                font-size: 48px;
             }
             
