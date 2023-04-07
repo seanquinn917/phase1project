@@ -1,5 +1,5 @@
 this is my README file
- # Breweries!
+ # Brewery Search!
 
 Breweries is a one page search application to find Breweries in America.
 
