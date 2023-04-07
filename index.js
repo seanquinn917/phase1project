@@ -163,27 +163,6 @@ function addButton(){
 })
 }
 
-// function emptyList(){
-    
-//     button.addEventListener('click', (e)=>{
-//         let list = document.getElementById("listholder")
-//         list.innerHTML = " "
-//         console.log('i was clicked!')
-       
-        
-            
-//         });
-        
-//     }
-
-
-
-
-// // let select = document.getElementById("select")
-// // let list = document.getElementById("list")
-// // select.onclick = function(){
-// //     list.classList.toggle("open");
-// // }
 
 
 
