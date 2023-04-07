@@ -20,6 +20,7 @@ function changePic(){
     const pic = document.getElementById('imageID')
     pic.addEventListener('click', (e)=>{
         e.preventDefault()
+        console.log(e.target.value)
         if(image_tracker==='orange'){
             //console.log('is this happening?')
             pic.src = "https://images.unsplash.com/photo-1615332579037-3c44b3660b53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
